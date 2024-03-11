@@ -3,3 +3,12 @@ extends layout
 block content
   h1= title
   p Welcome to #{title}
+  .messages-container 
+    each message in messages
+      .message
+        p.text= message.text 
+        p.user= message.user 
+        p.date= `Date: ${message.added}`
+    else 
+      p No messages
+    a.btn(href="/new") New message

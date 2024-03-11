@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1 Post a message
+  form(method="POST" action="/new")
+    label(for="name") Name:
+    input(type="text" name="name" id="name")
+    label(for="message") Message:
+    textarea(name="message" id="message" rows="3" cols="50")
+    button(type="submit") Send
