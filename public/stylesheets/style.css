@@ -6,3 +6,71 @@ body {
 a {
   color: #00B7FF;
 }
+
+.message {
+  border: 1px solid black;
+  padding: 50px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.text {
+  font-size: 28px;
+}
+
+.user {
+  font-size: 14px;
+  font-weight: 900;
+  color: blue;
+}
+
+.date {
+  font-size: 10px;
+}
+
+.btn {
+  color: white;
+  background-color: black;
+  text-decoration: none;
+  padding: 20px;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.btn:hover {
+  color: black;
+  background-color: rgb(200, 200, 200);
+}
+
+input, label {
+  display: block;
+}
+
+label {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
+
+form button {
+  border: none;
+  display: block;
+  margin-top: 30px;
+  color: white;
+  background-color: black;
+  text-decoration: none;
+  padding: 20px;
+  font-size: 16px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+form button:hover {
+  color: black;
+  background-color: rgb(200, 200, 200);
+}
